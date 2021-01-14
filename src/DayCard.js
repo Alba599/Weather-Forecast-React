@@ -17,12 +17,12 @@ const DayCard = ({reading}) => {
 
     return(
         
-        // <div className='card'>
-        //     <h3>{moment(newDate).format('dddd')}</h3>
-        //     <p>{moment(newDate).format('MMMM Do, h:mm a')}</p>
-        //     <h2>{Math.round(reading.main.temp)} °F</h2>
-        //     <p>{reading.weather[0].description}</p>
-        // </div>
+        <div className='card'>
+            <h3>{moment(newDate).format('dddd')}</h3>
+            <p>{moment(newDate).format('MMMM Do, h:mm a')}</p>
+            <h2>{Math.round(reading.main.temp)} °F</h2>
+            <p>{reading.weather[0].description}</p>
+        </div>
     )
 }
 
